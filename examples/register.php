@@ -26,7 +26,7 @@ if(isset($_COOKIE[$cookie_name])){
 
   ?>
   <script>
-    alert("hello");
+    window.location = "../examples/register.php";
   </script>
 <?php
 

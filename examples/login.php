@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 include '../php_code/db_connection.php';
 $cookie_name = 'token_name';
@@ -23,7 +23,7 @@ if (isset($_COOKIE[$cookie_name])) {
 
   ?>
   <script>
-    alert("hello");
+    window.location = "../examples/login.php";
   </script>
 <?php
 }
